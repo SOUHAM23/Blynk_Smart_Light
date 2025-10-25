@@ -52,7 +52,7 @@ Using an ESP8266 microcontroller, a relay module, and the Blynk IoT platform, th
 2. Create a new Project (Template).  
 3. In the template, define a **Datastream** (Virtual Pin) for your relay. For example:  
    * **Name:** "Relay Control"  
-   * **Pin:** V1  
+   * **Pin:** D2  
    * **Data Type:** Integer  
    * **Min:** 0, **Max:** 1  
 4. Create a **Device** from your template to get your unique **Blynk Auth Token**, **Template ID**, and **Device Name**.  
