@@ -3,7 +3,7 @@
  *************************************************************/
 
 #define BLYNK_TEMPLATE_ID "TEMPLATE_ID"
-#define BLYNK_TEMPLATE_NAME "ZenInfiny Smart Light"
+#define BLYNK_TEMPLATE_NAME "Blynk_Smart_Converter"
 #define BLYNK_AUTH_TOKEN "XXXX"
 
 // Include libraries
@@ -11,8 +11,8 @@
 #include <BlynkSimpleEsp8266.h>
 
 // Enter your WiFi credentials
-char ssid[] = "IOT";      // WiFi SSID
-char pass[] = "12345678";  // WiFi Password
+char ssid[] = "SSID";      // WiFi SSID
+char pass[] = "Password";  // WiFi Password
 
 // Relay pin connected to ESP8266 (D1 pin for example)
 #define RELAY_PIN 2  
@@ -43,4 +43,5 @@ void setup() {
 void loop() {
   Blynk.run(); // Run Blynk background tasks
 }
+
 
