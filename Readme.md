@@ -82,7 +82,7 @@ Working with AC mains voltage (110V-240V) is extremely dangerous and can cause s
 
 #### **1\. Low-Voltage Wiring (ESP8266 to Relay)**
 
-* ESP8266 5V (VIN) \-\> Relay VCC  
+* ESP8266 3.3V (VIN) \-\> Relay VCC  
 * ESP8266 GND \-\> Relay GND  
 * ESP8266 D2 (or your RELAY\_PIN) \-\> Relay IN
 
